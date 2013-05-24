@@ -5,7 +5,11 @@ import psycopg2             #para conexion con base de datos
 import gtk
 from datetime import date
 #import pygtk
+<<<<<<< HEAD
 #comentario a aparecer
+=======
+#modificar web
+>>>>>>> 0a312d19f16e3bd34be9dc39b96fd60fb505e10e
 def llenar_estado(combo):
 	##cnxn = psycopg2.connect("dbname=Prueba user=postgres password=hjesustb")
 	#cnxn = psycopg2.connect("dbname=postgres  user=postgres password=123456")
