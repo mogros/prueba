@@ -7,6 +7,7 @@ from datetime import date
 #import pygtk
 
 #comentario web1
+#comentario  maquina 1
 =======
 #modificar web
 >>>>>>> 0a312d19f16e3bd34be9dc39b96fd60fb505e10e
