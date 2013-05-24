@@ -5,8 +5,8 @@ import psycopg2             #para conexion con base de datos
 import gtk
 from datetime import date
 #import pygtk
-<<<<<<< HEAD
-#comentario a aparecer
+
+#comentario web1
 =======
 #modificar web
 >>>>>>> 0a312d19f16e3bd34be9dc39b96fd60fb505e10e
