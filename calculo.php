@@ -6,7 +6,7 @@ if(isset($_POST['Enviar']))
     echo  ' <head> ';
     echo  '        <meta charset="UTF-8"> ';
     echo  '         <title></title>     ';
-    echo  '          <link href="css/form/form.css" type="text/css" rel="stylesheet"/> ';
+    echo  '          <link href="form.css" type="text/css" rel="stylesheet"/> ';
     echo ' </head> ';
     echo ' <body> ';
     
