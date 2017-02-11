@@ -1,0 +1,104 @@
+
+table.formal {
+    border-collapse: collapse;
+    border: 1px solid #9bc2e6;
+}
+
+table.formal td, table.formal th {
+    border: 1px solid #9bc2e6;
+    padding: 3px 6px;
+}
+
+table.formal thead td, table.formal thead th, 
+table.formal tfoot td, table.formal tfoot th {
+    background-color: #5b9bd5;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+table.formal tbody tr:hover {
+    background-color: #ffff99;
+}
+
+table.formal tr:nth-of-type(odd) {
+    background-color: #ddebf7;
+}
+
+table.formal tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+
+
+/* estilo ecologico */
+
+table.ecologico {
+    border-collapse: collapse;
+    border: 1px solid #a9d08e;
+}
+
+table.ecologico td, table.ecologico th {
+    border: 1px solid #a9d08e;
+    padding: 3px 6px;
+}
+
+table.ecologico thead td, table.ecologico thead th, 
+table.ecologico tfoot td, table.ecologico tfoot th {
+    background-color: #70ad47;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+table.ecologico tbody tr:hover {
+    background-color: #ffff99;
+}
+
+table.ecologico tr:nth-of-type(odd) {
+    background-color: #e2efda;
+}
+
+table.ecologico tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+
+/* estilo elegante */
+
+table.elegante {
+    border-collapse: collapse;
+    border: 1px solid #5284a4;
+}
+
+table.elegante caption {
+    border: 1px solid #5284a4;
+    border-bottom: none;
+    text-align: left;
+    padding: 4px 8px;
+    background-image: url("images/pi_cap.gif");
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table.elegante td, table.elegante th {
+    border: 1px solid #5284a4;
+    padding: 3px 6px;
+}
+
+table.elegante thead td, table.elegante thead th, 
+table.elegante tfoot td, table.elegante tfoot th {
+    background-image: url("images/pi_hf.gif");
+    font-weight: bold;
+    color: #444444;
+}
+
+table.elegante tbody tr:hover {
+    background-color: #cad9e3;
+}
+
+table.elegante tr:nth-of-type(odd) {
+    background-color: #f4f7f9;
+}
+
+table.elegante tr:nth-of-type(even) {
+    background-color: #ffffff;
+}

@@ -1,0 +1,37 @@
+form.formal {
+    
+}
+
+form.formal legend{
+    border: 1px solid #9bc2e6;
+    padding: 3px 6px;
+    background-color: #5b9bd5;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+form.formal fieldset{
+    border: 1px solid #9bc2e6;
+    padding: 20px; /*espacioentre cajasy bordes*/
+    background-color: #ddebf7;
+}
+
+
+
+/* estilo elegante */
+form.elegante {
+    
+}
+form.elegante legend{
+    border: 1px solid #5284a4;
+    padding: 3px 6px;
+     background-image: url("images/pi_cap.gif");
+    font-weight: bold;
+    color: #ffffff;
+}
+
+form.elegante fieldset{
+    border: 1px solid #9bc2e6;
+    padding: 20px; /*espacioentre cajasy bordes*/
+    background-color: #ddebf7;
+}
