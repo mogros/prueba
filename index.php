@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
-        <link href="css/form/form.css" type="text/css" rel="stylesheet"/>
+        <link href="form.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <h1> Registro de serie numerica </h1>     
