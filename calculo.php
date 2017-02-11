@@ -27,7 +27,5 @@ if(isset($_POST['Enviar']))
          
     echo ' </body> ';
     echo ' </html> ';
-
-    
 }
 ?>
