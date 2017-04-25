@@ -7,4 +7,62 @@ Netbeans 7.4
 Validaciones en los archivos php con formularios y estilos definidos
 
 
-2222
+22222222222222222222222222222222222222222222222222222222222
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Fila clickeada en tabla</title>
+ 
+</head>
+<body>
+
+<TABLE id="tabla">
+    <tr>
+        <TH>Cod_Cliente</TH>
+        <TH>Nombre</TH>
+        <TH>Apellidos</TH>
+    </tr>
+	
+    <tr>
+        <TD rowspan=3> hoal </TD>		
+    </tr>
+
+    <tr>
+        <TD>001</TD>
+        <TD>Alberto</TD>
+        <TD>Garcia</TD>
+    </tr>
+    <tr>
+        <TD>002</TD>
+        <TD>Paco</TD>
+        <TD>Montes</TD>
+    </tr>
+</TABLE>
+
+<script>
+
+document.getElementById("tabla").onclick=function(e){ 
+    // obtenemos el elemento sobre el que se ha hecho click
+    if(!e)e=window.event; 
+    if(!e.target) e.target=e.srcElement; 
+    // e.target ahora simboliza la celda en la que hemos hecho click
+    // subimos de nivel hasta encontrar un tr
+    var TR=e.target;
+    while( TR.nodeType==1 && TR.tagName.toUpperCase()!="TR" )
+        TR=TR.parentNode;
+    var celdas=TR.getElementsByTagName("TD");
+    // cogemos la primera celda TD del tr (si existe)
+    if( celdas.length!=0 )
+        // devolvemos su contenido
+        alert( celdas[0].innerHTML );
+}
+
+</script> 
+
+</body>
+</html>
+
+
